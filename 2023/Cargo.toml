@@ -1,0 +1,24 @@
+[package]
+name = "aoc-2023"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[[bin]]
+name = "day1_1"
+path = "day1/day1_1.rs"
+
+[[bin]]
+name = "day1_2"
+path = "day1/day1_2.rs"
+
+[[bin]]
+name = "day2_1"
+path = "day2/day2_1.rs"
+
+[[bin]]
+name = "day2_2"
+path = "day2/day2_2.rs"
+
+[dependencies]
+nom = "7.1.3"
