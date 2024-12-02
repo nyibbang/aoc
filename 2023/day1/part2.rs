@@ -48,10 +48,10 @@ impl<'a> Iterator for DigitsIter<'a> {
 }
 
 fn read_first_last_digits(line: &str) -> (u32, u32) {
-    let mut digits = DigitsIter::new(dbg!(line));
+    let digits = DigitsIter::new(dbg!(line));
     let mut first = None;
     let mut last = None;
-    while let Some(digit) = digits.next() {
+    for digit in digits {
         first.get_or_insert(digit);
         last.replace(digit);
     }

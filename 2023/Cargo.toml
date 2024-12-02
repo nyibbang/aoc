@@ -6,19 +6,27 @@ edition = "2021"
 
 [[bin]]
 name = "day1_1"
-path = "day1/day1_1.rs"
+path = "day1/part1.rs"
 
 [[bin]]
 name = "day1_2"
-path = "day1/day1_2.rs"
+path = "day1/part2.rs"
 
 [[bin]]
 name = "day2_1"
-path = "day2/day2_1.rs"
+path = "day2/part1.rs"
 
 [[bin]]
 name = "day2_2"
-path = "day2/day2_2.rs"
+path = "day2/part2.rs"
+
+[[bin]]
+name = "day3_1"
+path = "day3/part1.rs"
+
+[[bin]]
+name = "day3_2"
+path = "day3/part2.rs"
 
 [dependencies]
 nom = "7.1.3"

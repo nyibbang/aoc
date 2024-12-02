@@ -1,8 +1,8 @@
 fn read_first_last_digits(line: &str) -> (u32, u32) {
-    let mut digits = dbg!(line).chars().filter_map(|c| dbg!(c.to_digit(10)));
+    let digits = dbg!(line).chars().filter_map(|c| dbg!(c.to_digit(10)));
     let mut first = None;
     let mut last = None;
-    while let Some(digit) = digits.next() {
+    for digit in digits {
         first.get_or_insert(digit);
         last.replace(digit);
     }
