@@ -1,0 +1,34 @@
+[package]
+name = "aoc-2024"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[[bin]]
+name = "day1_1"
+path = "day1/part1.rs"
+
+[[bin]]
+name = "day1_2"
+path = "day1/part2.rs"
+
+[[bin]]
+name = "day2_1"
+path = "day2/part1.rs"
+
+[[bin]]
+name = "day2_2"
+path = "day2/part2.rs"
+
+[[bin]]
+name = "day3_1"
+path = "day3/part1.rs"
+
+[[bin]]
+name = "day3_2"
+path = "day3/part2.rs"
+
+[dependencies]
+anyhow = "1.0.93"
+itertools = "0.13.0"
+nom = "7.1.3"
