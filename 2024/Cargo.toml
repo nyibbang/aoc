@@ -28,6 +28,14 @@ path = "day3/part1.rs"
 name = "day3_2"
 path = "day3/part2.rs"
 
+[[bin]]
+name = "day4_1"
+path = "day4/part1.rs"
+
+[[bin]]
+name = "day4_2"
+path = "day4/part2.rs"
+
 [dependencies]
 anyhow = "1.0.93"
 itertools = "0.13.0"
