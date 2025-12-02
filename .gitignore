@@ -33,3 +33,5 @@
 
 /target
 **/*.rs.bk
+
+input.txt
