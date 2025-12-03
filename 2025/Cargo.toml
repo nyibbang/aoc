@@ -20,6 +20,17 @@ path = "day2/part1.rs"
 name = "day2_2"
 path = "day2/part2.rs"
 
+
+[[bin]]
+name = "day3_1"
+path = "day3/part1.rs"
+
+[[bin]]
+name = "day3_2"
+path = "day3/part2.rs"
+
 [dependencies]
 itertools = "0.14.0"
 nom = "8.0.0"
+assert_matches = "1.5.0"
+rayon = "1.11.0"
