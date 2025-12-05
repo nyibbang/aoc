@@ -1,0 +1,4 @@
+{
+    "rust-analyzer.assist.preferSelf": true,
+    "rust-analyzer.hover.actions.updateTest.enable": false
+}

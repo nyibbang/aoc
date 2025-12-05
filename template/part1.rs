@@ -12,10 +12,10 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
-    const SAMPLE: &str = "";
+    use day::tests::*;
 
     #[test]
-    fn sample() {
-        assert_eq!(run(SAMPLE), 42);
+    fn example() {
+        assert_eq!(run(EXAMPLE), 42);
     }
 }

@@ -12,13 +12,13 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
-    const SAMPLE: &str = "987654321111111\n\
+    const EXAMPLE: &str = "987654321111111\n\
         811111111111119\n\
         234234234234278\n\
         818181911112111";
 
     #[test]
-    fn sample() {
-        assert_eq!(run(SAMPLE), 3121910778619);
+    fn example() {
+        assert_eq!(run(EXAMPLE), 3121910778619);
     }
 }

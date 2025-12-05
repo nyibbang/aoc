@@ -29,7 +29,7 @@ mod tests {
     use day::tests::*;
 
     #[test]
-    fn sample() {
-        assert_eq!(run::<10>(SAMPLE), 43);
+    fn example() {
+        assert_eq!(run::<10>(EXAMPLE), 43);
     }
 }

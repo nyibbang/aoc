@@ -167,7 +167,7 @@ impl<const SIZE: usize> ExactSizeIterator for Positions<SIZE> {}
 pub mod tests {
     use super::*;
 
-    pub const SAMPLE: &str = "..@@.@@@@.\n\
+    pub const EXAMPLE: &str = "..@@.@@@@.\n\
         @@@.@.@.@@\n\
         @@@@@.@.@@\n\
         @.@@@@..@.\n\
@@ -179,8 +179,8 @@ pub mod tests {
         @.@.@@@.@.";
 
     #[test]
-    fn sample_count_paper() {
-        let grid: Grid<10> = SAMPLE.parse().unwrap();
+    fn example_count_paper() {
+        let grid: Grid<10> = EXAMPLE.parse().unwrap();
         assert_eq!(grid.count_paper_neighbors(Pos { x: 5, y: 2 }), 6);
     }
 }
