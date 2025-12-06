@@ -34,4 +34,4 @@
 /target
 **/*.rs.bk
 
-input.txt
+input*.txt

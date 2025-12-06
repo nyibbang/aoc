@@ -46,6 +46,15 @@ path = "day5/part1.rs"
 name = "day5_2"
 path = "day5/part2.rs"
 
+[[bin]]
+name = "day6_1"
+path = "day6/part1.rs"
+
+[[bin]]
+name = "day6_2"
+path = "day6/part2.rs"
+
+
 [dependencies]
 itertools = { workspace = true }
 nom = { workspace = true }
